@@ -1,0 +1,121 @@
+
+
+
+.header_main{
+   width: 1117px;
+   min-height: 840px;
+   background: #F4F9E2;
+}
+
+.container{
+   margin-left: 179px;
+   margin-right: 131px;
+   position: relative;
+}
+
+
+.navigation{
+   display: flex;
+   padding-top:27px;
+   justify-content: space-between;
+   align-items: center;
+   position: relative;
+}
+
+.logo{
+font-family: Larsseit;
+font-size: 24px;
+line-height: 27px;
+color: #62D0DF;
+font-weight: 700;
+}
+
+.menu{
+   margin-right: 30px;
+   
+   &__item{
+margin-right: 30px;
+font-family: Larsseit;
+font-size: 14px;
+line-height: 16px;
+color: #22356F;
+
+   }
+
+}
+
+.menu__item:hover{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+
+.bottom{
+background: #62D0DF;
+border-radius: 50px;
+color: white;
+padding: 15px 30px;
+font-size: 14px;
+line-height: 16px;
+font-weight: 700;
+text-transform: uppercase;
+}
+
+.blue{
+   position: absolute;
+   width: 807.71px;
+   height: 544.93px;
+   background: #EDFDFF;
+   border-radius: 312.159px;
+   transform: matrix(-0.5, 0.87, 0.87, 0.5, 0, 0);
+   top: 30px;
+   right: -650px;
+}
+
+.header_info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 500px;
+   margin-top: 187px;
+   max-width: 469px;
+      &_title{
+   font-family: Larsseit;
+   font-size: 24px;
+   line-height: 27px;
+   color: #62D0DF;
+   font-weight: 700;
+    }
+      &_subtitle{
+      font-size: 48px;
+      line-height: 53px;
+      letter-spacing: -0.035em;
+      color: #22356F;
+    }
+
+      &_text{
+      font-size: 24px;
+      line-height: 42px;
+      color: #22356F;
+    }
+      &_bottoms_item{
+      font-size: 16px;
+      line-height: 23px;
+      letter-spacing: 0.1em;
+      margin-right: 20px;
+      padding: 10px 30px;
+      background-color: #F9B640;
+      color: white;
+      font-weight: 700;
+    }
+      &_bottoms_item:hover{
+       border: 2px solid rgb(10, 10, 10);
+       color: slategray;
+
+    }
+
+
+}
+
+
+
+

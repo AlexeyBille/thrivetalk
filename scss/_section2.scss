@@ -1,0 +1,28 @@
+.section2 {
+   height: 361px;
+   
+
+   &_title {
+      display: inline-block;
+   font-size: 16px;
+   line-height: 23px;
+   letter-spacing: 0.06em;
+   color: #22356F;
+margin-left: 106px;
+margin-right: 225px;
+vertical-align: top;
+margin-top: 156px;
+   }
+
+   &_text {
+   display: inline-block;
+   font-size: 24px;
+   line-height: 34px;
+   letter-spacing: 0.005em;
+   color: #22356F;
+   vertical-align: top;
+   margin-top: 150px;
+   width: 592px;
+   height: 210px;
+   }
+}
