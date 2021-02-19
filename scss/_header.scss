@@ -1,26 +1,17 @@
 
 
 
-.header_main{
+.header{
    width: 1117px;
-   min-height: 840px;
    background: #F4F9E2;
+   padding-bottom: 60px;
 }
 
 .container{
    margin-left: 179px;
-   margin-right: 131px;
-   position: relative;
 }
 
 
-.navigation{
-   display: flex;
-   padding-top:27px;
-   justify-content: space-between;
-   align-items: center;
-   position: relative;
-}
 
 .logo{
 font-family: Larsseit;
@@ -30,7 +21,7 @@ color: #62D0DF;
 font-weight: 700;
 }
 
-.menu{
+.navigation{
    margin-right: 30px;
    
    &__item{
@@ -44,7 +35,7 @@ color: #22356F;
 
 }
 
-.menu__item:hover{
+.navigation__item:hover{
     padding-bottom: 10px;
     border-bottom: 1px solid #000;
 }
