@@ -11,6 +11,15 @@
    margin-left: 179px;
 }
 
+.header_top{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-top: 20px;
+
+
+}
+
 
 
 .logo{
@@ -19,10 +28,12 @@ font-size: 24px;
 line-height: 27px;
 color: #62D0DF;
 font-weight: 700;
+margin-right: 234px;
 }
 
 .navigation{
    margin-right: 30px;
+   display: flex;
    
    &__item{
 margin-right: 30px;
@@ -40,7 +51,7 @@ color: #22356F;
     border-bottom: 1px solid #000;
 }
 
-.bottom{
+.btn{
 background: #62D0DF;
 border-radius: 50px;
 color: white;
@@ -49,7 +60,13 @@ font-size: 14px;
 line-height: 16px;
 font-weight: 700;
 text-transform: uppercase;
+display: block;
+position: relative;
+left: 190px;
 }
+
+
+
 
 .blue{
    position: absolute;

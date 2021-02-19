@@ -8,16 +8,33 @@
   margin-left: 179px;
 }
 
+.header_top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 20px;
+}
+
 .logo {
   font-family: Larsseit;
   font-size: 24px;
   line-height: 27px;
   color: #62D0DF;
   font-weight: 700;
+  margin-right: 234px;
 }
 
 .navigation {
   margin-right: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .navigation__item {
@@ -33,7 +50,7 @@
   border-bottom: 1px solid #000;
 }
 
-.bottom {
+.btn {
   background: #62D0DF;
   border-radius: 50px;
   color: white;
@@ -42,6 +59,9 @@
   line-height: 16px;
   font-weight: 700;
   text-transform: uppercase;
+  display: block;
+  position: relative;
+  left: 190px;
 }
 
 .blue {
@@ -274,4 +294,8 @@ a {
 div {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
 }
