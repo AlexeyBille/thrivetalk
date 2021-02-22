@@ -1,9 +1,11 @@
-.section1{
+.section-why-thrive{
 display: flex;
+justify-content: space-between;
 }
 
 .info {
    background-color: #62D0DF;
+   flex-grow: 1;   
       &_title {
    font-size: 36px;
    line-height: 27px;
@@ -18,5 +20,7 @@ display: flex;
    line-height: 35px;
    color: #FFFFFF;
    font-weight: 400;
+   width: 555px;
+   height: 235px;
    }
 }

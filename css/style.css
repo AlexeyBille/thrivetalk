@@ -62,6 +62,14 @@
   display: block;
   position: relative;
   left: 190px;
+  z-index: 1;
+}
+
+.people {
+  position: absolute;
+  top: -5px;
+  left: 695px;
+  display: block;
 }
 
 .blue {
@@ -72,8 +80,8 @@
   border-radius: 312.159px;
   -webkit-transform: matrix(-0.5, 0.87, 0.87, 0.5, 0, 0);
           transform: matrix(-0.5, 0.87, 0.87, 0.5, 0, 0);
-  top: 30px;
-  right: -650px;
+  top: px;
+  left: 695px;
 }
 
 .header_info {
@@ -122,6 +130,7 @@
   background-color: #F9B640;
   color: white;
   font-weight: 700;
+  border: transparent;
 }
 
 .header_info_bottoms_item:hover {
@@ -129,14 +138,20 @@
   color: slategray;
 }
 
-.section1 {
+.section-why-thrive {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .info {
   background-color: #62D0DF;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
 }
 
 .info_title {
@@ -153,13 +168,15 @@
   line-height: 35px;
   color: #FFFFFF;
   font-weight: 400;
+  width: 555px;
+  height: 235px;
 }
 
-.section2 {
+.section-about-us {
   height: 361px;
 }
 
-.section2_title {
+.section-about-us_title {
   display: inline-block;
   font-size: 16px;
   line-height: 23px;
@@ -167,11 +184,10 @@
   color: #22356F;
   margin-left: 106px;
   margin-right: 225px;
-  vertical-align: top;
   margin-top: 156px;
 }
 
-.section2_text {
+.section-about-us_text {
   display: inline-block;
   font-size: 24px;
   line-height: 34px;
@@ -183,44 +199,41 @@
   height: 210px;
 }
 
-.section3 {
-  margin-top: 76px;
-}
-
-.section3_title {
+.skills-title {
   font-size: 16px;
   line-height: 19px;
   text-align: center;
   letter-spacing: 0.06em;
   color: rgba(34, 53, 111, 0.5);
   margin-bottom: 24px;
+  padding-top: 35px;
 }
 
-.skills {
+.skills-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.skills_item1 {
+.skills-list-item:nth-child(1) {
   width: 360px;
   height: 360px;
   background-color: #FFE2DE;
 }
 
-.skills_item2 {
+.skills-list-item:nth-child(2) {
   background-color: #C4E769;
   width: 360px;
   height: 360px;
 }
 
-.skills_item3 {
+.skills-list-item:nth-child(3) {
   background-color: #62D0DF;
   width: 360px;
   height: 360px;
 }
 
-.skills_item4 {
+.skills-list-item:nth-child(4) {
   background-color: #0052C1;
   width: 360px;
   height: 360px;
@@ -284,6 +297,7 @@ ol[class] {
 body {
   font-family: 'Lato', sans-serif;
   width: 1440px;
+  position: relative;
 }
 
 a {

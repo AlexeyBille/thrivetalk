@@ -63,10 +63,17 @@ text-transform: uppercase;
 display: block;
 position: relative;
 left: 190px;
+z-index: 1;
+
 }
 
 
-
+.people{
+   position: absolute;
+   top:-5px;
+   left: 695px;
+   display: block;
+}
 
 .blue{
    position: absolute;
@@ -75,9 +82,12 @@ left: 190px;
    background: #EDFDFF;
    border-radius: 312.159px;
    transform: matrix(-0.5, 0.87, 0.87, 0.5, 0, 0);
-   top: 30px;
-   right: -650px;
+   top: px;
+   left: 695px;
 }
+
+
+
 
 .header_info{
   display: flex;
@@ -114,6 +124,7 @@ left: 190px;
       background-color: #F9B640;
       color: white;
       font-weight: 700;
+      border: transparent;
     }
       &_bottoms_item:hover{
        border: 2px solid rgb(10, 10, 10);
@@ -122,7 +133,9 @@ left: 190px;
     }
 
 
+
 }
+
 
 
 

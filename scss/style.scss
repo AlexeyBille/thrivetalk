@@ -1,8 +1,10 @@
 @import "header";
-@import "section1";
+@import "section-why-thrive";
 @import "section2";
-@import "section3";
+@import "skills";
 
+
+$gr=#62D0DF;
 
 body,
 h1,
@@ -29,6 +31,7 @@ ol[class] {
 body{
    font-family: 'Lato', sans-serif;
    width: 1440px;
+   position: relative;
 }
 
 a{
