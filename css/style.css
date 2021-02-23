@@ -172,11 +172,11 @@
   height: 235px;
 }
 
-.section-about-us {
+.about-us {
   height: 361px;
 }
 
-.section-about-us_title {
+.about-us_title {
   display: inline-block;
   font-size: 16px;
   line-height: 23px;
@@ -187,7 +187,7 @@
   margin-top: 156px;
 }
 
-.section-about-us_text {
+.about-us_text {
   display: inline-block;
   font-size: 24px;
   line-height: 34px;
