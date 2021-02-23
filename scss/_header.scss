@@ -11,10 +11,10 @@
 }
 
 .header_top{
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   padding-top: 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-top: 20px;
 
 
 }
@@ -29,10 +29,10 @@ margin-right: 234px;
 }
 
 .navigation{
-   margin-right: 30px;
-   display: flex;
+margin-right: 30px;
+display: flex;
    
-   &__item{
+&__item{
 margin-right: 30px;
 font-family: Larsseit;
 font-size: 14px;
@@ -44,8 +44,8 @@ color: #22356F;
 }
 
 .navigation__item:hover{
-    padding-bottom: 10px;
-    border-bottom: 1px solid #000;
+   padding-bottom: 10px;
+   border-bottom: 1px solid #000;
 }
 
 .btn{
@@ -91,8 +91,8 @@ z-index: 1;
   flex-direction: column;
   justify-content: space-between;
   min-height: 500px;
-   margin-top: 187px;
-   max-width: 469px;
+margin-top: 187px;
+max-width: 469px;
       &_title{
    font-family: Larsseit;
    font-size: 24px;
