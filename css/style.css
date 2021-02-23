@@ -138,7 +138,7 @@
   color: slategray;
 }
 
-.section-why-thrive {
+.why_thrive {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -172,11 +172,11 @@
   height: 235px;
 }
 
-.about-us {
+.about_us {
   height: 361px;
 }
 
-.about-us_title {
+.about_us_title {
   display: inline-block;
   font-size: 16px;
   line-height: 23px;
@@ -187,7 +187,7 @@
   margin-top: 156px;
 }
 
-.about-us_text {
+.about_us_text {
   display: inline-block;
   font-size: 24px;
   line-height: 34px;
