@@ -121,10 +121,14 @@
   color: #22356F;
 }
 
-.header_info_bottoms_item {
+.header_info_buttoms_item:hover {
+  border: 2px solid #0a0a0a;
+  color: slategray;
+}
+
+.header_info_buttoms_item:nth-child(1) {
   font-size: 16px;
   line-height: 23px;
-  letter-spacing: 0.1em;
   margin-right: 20px;
   padding: 10px 30px;
   background-color: #F9B640;
@@ -133,7 +137,17 @@
   border: transparent;
 }
 
-.header_info_bottoms_item:hover {
+.header_info_buttoms_item:nth-child(2) {
+  font-size: 16px;
+  line-height: 23px;
+  margin-right: 20px;
+  padding: 10px 30px;
+  background-color: #F9B640;
+  color: white;
+  font-weight: 700;
+}
+
+.header_info_buttoms_item:hover {
   border: 2px solid #0a0a0a;
   color: slategray;
 }
