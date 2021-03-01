@@ -1,0 +1,41 @@
+.online {
+}
+.online_block {
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content: space-between;
+   background-color: $color_2;
+
+}
+.contact {
+   padding-top: 103px;
+
+   &_title {
+      font-size: 16px;
+      line-height: 12px;
+      color: #fff;
+      padding-bottom: 230px;
+   }
+   &_subtitle {
+      font-size: 64px;
+      line-height: 94px;
+      color: #fff;
+      padding-bottom: 75px;
+
+   }
+   &_text {
+      font-size: 36px;
+      line-height: 52px;
+      color: #fff;
+      max-width: 579px;
+      max-height: 250px;
+      padding-bottom: 25px;
+
+   }
+   &_link {
+      font-size: 16px;
+      line-height: 53px;
+      color: $color_1;
+   }
+
+}

@@ -1,0 +1,75 @@
+.direction{
+   padding-top: 120px;
+}
+
+.direction_list{
+display: flex;
+flex-wrap: wrap;
+
+&_item:nth-child(1){
+   max-width: 480px;
+   max-height: 480px;
+
+   background-color: $color_2;
+}
+&_item:nth-child(2){
+   max-width: 480px;
+   max-height: 480px;
+   background-color: #0052C1;
+   ;
+}
+&_item:nth-child(3){
+   max-width: 480px;
+   max-height: 480px;
+   background-image: url(../img/berry.png);
+}
+&_item:nth-child(4){
+   max-width: 480px;
+   max-height: 480px;
+   background-color: $color_1;
+}
+&_item:nth-child(5){
+   max-width: 480px;
+   max-height: 480px;
+   background: #DEE1FF;
+}
+&_item:nth-child(6){
+   max-width: 480px;
+   max-height: 480px;
+   background: #8F00FF;
+}
+}
+
+.direction .item{
+   font-size: 40px;
+   font-size: 32px;
+   line-height: 34px;
+   letter-spacing: -0.006em;
+   position: relative;
+   color: #fff;
+   font-weight: 700;
+   padding: 126px 264px 262px 104px;
+
+}
+
+.direction .item::before{
+   content: "";
+   width: 9px;
+   height: 9px;
+   background-color: chocolate;
+   position:absolute;
+   margin-left: -25px;
+   margin-top: 10px;
+   border-radius: 50%;
+
+}
+
+.direction .item::after{
+   content: "";
+   height: 1px;
+   width: 340px;
+   background-color: white;
+   position: absolute;
+   top: 85px;
+   left: 82px;
+}

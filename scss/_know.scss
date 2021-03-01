@@ -1,0 +1,32 @@
+.know_block {
+   display: flex;
+}
+.content {
+   padding: 103px 175px 0 106px;
+
+   &_title {
+      font-size: 16px;
+      line-height: 12px;
+      color: $color_2;
+      padding-bottom: 225px;
+   }
+   &_text {
+      max-width: 676px;
+      max-height: 215px;
+      font-size: 36px;
+      line-height: 52px;
+      color: $color_2;
+      font-weight: 700;
+      padding-bottom: 172px;
+   }
+   &_link {
+      font-size: 16px;
+      line-height: 23px;
+      color: #FAB63E;
+      font-weight: 700;
+   }
+}
+
+span{
+   color: $color_1;
+}

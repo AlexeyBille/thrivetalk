@@ -1,0 +1,27 @@
+.working {
+   padding-top: 22px;
+}
+.work_list {
+display: flex;
+flex-wrap: wrap;
+}
+.work_block {
+   max-width: 480px;
+   max-height: 240px;
+   padding: 55px 77px 37px 105px;
+
+   &_title {
+      font-size: 28px;
+      line-height: 33px;
+      color: $color_2;
+      padding-bottom: 28px;
+
+   }
+   &_desc {
+      width: 298px;
+      height: 84px;
+      font-size: 16px;
+      line-height: 25px;
+      color: rgba(34, 53, 111, 0.5);
+      }
+}

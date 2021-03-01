@@ -1,12 +1,17 @@
 $color_1:#62D0DF;
+$color_2:#22356F;
 
 
 @import "header";
 @import "why_thrive";
 @import "about_us";
 @import "skills";
-
-
+@import "direction";
+@import "working";
+@import "know";
+@import "online";
+@import "some_info";
+@import "footer";
 
 body,
 h1,
@@ -32,7 +37,6 @@ ol[class] {
 
 body{
    font-family: 'Lato', sans-serif;
-   position: relative;
 }
 
 a{
@@ -49,7 +53,7 @@ list-style: none;
 }
 
 .wrapper{
-width: 1440px;
+max-width: 1440px;
 overflow-x: hidden;
 }
 

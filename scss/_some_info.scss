@@ -1,0 +1,38 @@
+.bottom {
+   display: flex;
+}
+.bottom_block {
+   display: flex;
+   padding: 98px 0  0 68px;
+
+}
+.bottom_block_item {
+   max-width: 240px;
+   margin-right: 22px;
+   padding-right: 33px;
+
+&_title {
+   font-size: 14px;
+   line-height: 11px;
+   color: $color_2;
+   margin-bottom: 50px;
+
+}
+&_text {
+   font-size: 14px;
+   line-height: 23px;
+   color: rgba(34, 53, 111, 0.5);
+   max-width: 207px;
+   margin-bottom: 30px;
+}
+}  
+.tel {
+   color: rgba(34, 53, 111, 0.5);
+   margin-bottom: 30px;
+   display: block;
+
+}
+.mail {
+   display: block;
+   color: #0080ff;
+}
