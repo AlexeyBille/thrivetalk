@@ -32,7 +32,6 @@ ol[class] {
 
 body{
    font-family: 'Lato', sans-serif;
-   width: 1440px;
    position: relative;
 }
 
@@ -47,6 +46,11 @@ div{
 
 ul{
 list-style: none;
+}
+
+.wrapper{
+width: 1440px;
+overflow-x: hidden;
 }
 
 
