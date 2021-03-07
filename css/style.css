@@ -9,16 +9,11 @@
 }
 
 .header_top {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   padding-top: 20px;
+  position: relative;
 }
 
 .logo {
@@ -32,11 +27,8 @@
 
 .navigation {
   margin-right: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .navigation__item {
   margin-right: 30px;
   font-family: Larsseit;
@@ -78,28 +70,19 @@
   height: 544.93px;
   background: #EDFDFF;
   border-radius: 312.159px;
-  -webkit-transform: matrix(-0.5, 0.87, 0.87, 0.5, 0, 0);
-          transform: matrix(-0.5, 0.87, 0.87, 0.5, 0, 0);
+  transform: matrix(-0.5, 0.87, 0.87, 0.5, 0, 0);
   top: px;
   left: 695px;
 }
 
 .header_info {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-direction: column;
+  justify-content: space-between;
   min-height: 500px;
   margin-top: 187px;
   max-width: 469px;
 }
-
 .header_info_title {
   font-family: Larsseit;
   font-size: 24px;
@@ -107,14 +90,12 @@
   font-weight: 700;
   color: #62D0DF;
 }
-
 .header_info_subtitle {
   font-size: 48px;
   line-height: 53px;
   letter-spacing: -0.035em;
   color: #22356F;
 }
-
 .header_info_text {
   font-size: 24px;
   line-height: 42px;
@@ -148,21 +129,14 @@
 }
 
 .why_thrive {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 
 .info {
   background-color: #62D0DF;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  flex-grow: 1;
 }
-
 .info_title {
   font-size: 36px;
   line-height: 27px;
@@ -171,7 +145,6 @@
   margin-top: 151px;
   margin-bottom: 75px;
 }
-
 .info_text {
   font-size: 18px;
   line-height: 35px;
@@ -184,7 +157,6 @@
 .about_us {
   height: 361px;
 }
-
 .about_us_title {
   display: inline-block;
   font-size: 16px;
@@ -195,7 +167,6 @@
   margin-right: 225px;
   margin-top: 156px;
 }
-
 .about_us_text {
   display: inline-block;
   font-size: 24px;
@@ -219,29 +190,23 @@
 }
 
 .skills-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .skills-list-item:nth-child(1) {
   width: 360px;
   height: 360px;
   background-color: #FFE2DE;
 }
-
 .skills-list-item:nth-child(2) {
   background-color: #C4E769;
   width: 360px;
   height: 360px;
 }
-
 .skills-list-item:nth-child(3) {
   background-color: #62D0DF;
   width: 360px;
   height: 360px;
 }
-
 .skills-list-item:nth-child(4) {
   background-color: #0052C1;
   width: 360px;
@@ -286,43 +251,34 @@
 }
 
 .direction_list {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
-
 .direction_list_item:nth-child(1) {
   max-width: 480px;
   max-height: 480px;
   background-color: #22356F;
 }
-
 .direction_list_item:nth-child(2) {
   max-width: 480px;
   max-height: 480px;
   background-color: #0052C1;
 }
-
 .direction_list_item:nth-child(3) {
   max-width: 480px;
   max-height: 480px;
   background-image: url(../img/berry.png);
 }
-
 .direction_list_item:nth-child(4) {
   max-width: 480px;
   max-height: 480px;
   background-color: #62D0DF;
 }
-
 .direction_list_item:nth-child(5) {
   max-width: 480px;
   max-height: 480px;
   background: #DEE1FF;
 }
-
 .direction_list_item:nth-child(6) {
   max-width: 480px;
   max-height: 480px;
@@ -366,11 +322,8 @@
 }
 
 .work_list {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .work_block {
@@ -378,14 +331,12 @@
   max-height: 240px;
   padding: 55px 77px 37px 105px;
 }
-
 .work_block_title {
   font-size: 28px;
   line-height: 33px;
   color: #22356F;
   padding-bottom: 28px;
 }
-
 .work_block_desc {
   width: 298px;
   height: 84px;
@@ -395,22 +346,18 @@
 }
 
 .know_block {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
 .content {
   padding: 103px 175px 0 106px;
 }
-
 .content_title {
   font-size: 16px;
   line-height: 12px;
   color: #22356F;
   padding-bottom: 225px;
 }
-
 .content_text {
   max-width: 676px;
   max-height: 215px;
@@ -420,7 +367,6 @@
   font-weight: 700;
   padding-bottom: 172px;
 }
-
 .content_link {
   font-size: 16px;
   line-height: 23px;
@@ -433,37 +379,27 @@ span {
 }
 
 .online_block {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-direction: row-reverse;
+  justify-content: space-between;
   background-color: #22356F;
 }
 
 .contact {
   padding-top: 103px;
 }
-
 .contact_title {
   font-size: 16px;
   line-height: 12px;
   color: #fff;
   padding-bottom: 230px;
 }
-
 .contact_subtitle {
   font-size: 64px;
   line-height: 94px;
   color: #fff;
   padding-bottom: 75px;
 }
-
 .contact_text {
   font-size: 36px;
   line-height: 52px;
@@ -472,7 +408,6 @@ span {
   max-height: 250px;
   padding-bottom: 25px;
 }
-
 .contact_link {
   font-size: 16px;
   line-height: 53px;
@@ -480,16 +415,12 @@ span {
 }
 
 .bottom {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
 .bottom_block {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  padding: 98px 0  0 68px;
+  padding: 98px 0 0 68px;
 }
 
 .bottom_block_item {
@@ -497,14 +428,12 @@ span {
   margin-right: 22px;
   padding-right: 33px;
 }
-
 .bottom_block_item_title {
   font-size: 14px;
   line-height: 11px;
   color: #22356F;
   margin-bottom: 50px;
 }
-
 .bottom_block_item_text {
   font-size: 14px;
   line-height: 23px;
@@ -558,7 +487,7 @@ ol[class] {
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 a {
@@ -567,8 +496,7 @@ a {
 }
 
 div {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 ul {
@@ -576,6 +504,9 @@ ul {
 }
 
 .wrapper {
+  margin: 0 auto;
   max-width: 1440px;
   overflow-x: hidden;
 }
+
+/*# sourceMappingURL=style.css.map */

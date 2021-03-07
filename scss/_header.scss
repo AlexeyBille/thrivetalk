@@ -1,144 +1,146 @@
 
-.header{
-   width: 1117px;
-   background: #F4F9E2;
-   padding-bottom: 60px;
+.header {
+  width: 1117px;
+  background: #F4F9E2;
+  padding-bottom: 60px;
 }
 
-.container{
-   margin-left: 179px;
+.container {
+  margin-left: 179px;
 }
 
-.header_top{
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding-top: 20px;
+.header_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  position: relative;
 
 
-}
-
-.logo{
-font-family: Larsseit;
-font-size: 24px;
-line-height: 27px;
-color: #62D0DF;
-font-weight: 700;
-margin-right: 234px;
-}
-
-.navigation{
-margin-right: 30px;
-display: flex;
-   
-&__item{
-margin-right: 30px;
-font-family: Larsseit;
-font-size: 14px;
-line-height: 16px;
-color: $color_2;
-
-   }
 
 }
 
-.navigation__item:hover{
-   padding-bottom: 10px;
-   border-bottom: 1px solid #000;
+.logo {
+  font-family: Larsseit;
+  font-size: 24px;
+  line-height: 27px;
+  color: #62D0DF;
+  font-weight: 700;
+  margin-right: 234px;
 }
 
-.btn{
-background-color: $color_1;
-border-radius: 50px;
-color: white;
-padding: 15px 30px;
-font-size: 14px;
-line-height: 16px;
-font-weight: 700;
-text-transform: uppercase;
-display: block;
-position: relative;
-left: 190px;
-z-index: 1;
+.navigation {
+  margin-right: 30px;
+  display: flex;
+
+  &__item {
+    margin-right: 30px;
+    font-family: Larsseit;
+    font-size: 14px;
+    line-height: 16px;
+    color: $color_2;
+
+  }
 
 }
 
-
-.people{
-   position: absolute;
-   top:-5px;
-   left: 695px;
-   display: block;
+.navigation__item:hover {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #000;
 }
 
-.blue{
-   position: absolute;
-   width: 807.71px;
-   height: 544.93px;
-   background: #EDFDFF;
-   border-radius: 312.159px;
-   transform: matrix(-0.5, 0.87, 0.87, 0.5, 0, 0);
-   top: px;
-   left: 695px;
-}
-
-
-
-
-.header_info{
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-min-height: 500px;
-margin-top: 187px;
-max-width: 469px;
-&_title{
-   font-family: Larsseit;
-   font-size: 24px;
-   line-height: 27px;
-   font-weight: 700;
-   color: #62D0DF;
-}
-      &_subtitle{
-      font-size: 48px;
-      line-height: 53px;
-      letter-spacing: -0.035em;
-      color: #22356F;
-}
-
-      &_text{
-      font-size: 24px;
-      line-height: 42px;
-      color: #22356F;
-}
+.btn {
+  background-color: $color_1;
+  border-radius: 50px;
+  color: white;
+  padding: 15px 30px;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: block;
+  position: relative;
+  left: 190px;
+  z-index: 1;
 
 }
 
 
-.header_info_buttoms_item:nth-child(1){
-   font-size: 16px;
-   line-height: 23px;
-   margin-right: 20px;
-   padding: 10px 30px;
-   background-color: #F9B640;
-   color: white;
-   font-weight: 700;
-   border: transparent;
+.people {
+  position: absolute;
+  top: -5px;
+  left: 695px;
+  display: block;
 }
 
-.header_info_buttoms_item:nth-child(2){
-   font-size: 16px;
-   line-height: 23px;
-   margin-right: 20px;
-   padding: 10px 30px;
-   background-color: #F9B640;
-   color: white;
-   font-weight: 700;
+.blue {
+  position: absolute;
+  width: 807.71px;
+  height: 544.93px;
+  background: #EDFDFF;
+  border-radius: 312.159px;
+  transform: matrix(-0.5, 0.87, 0.87, 0.5, 0, 0);
+  top: px;
+  left: 695px;
 }
 
-.header_info_buttoms_item:hover{
-   border: 2px solid rgb(10, 10, 10);
-   color: slategray;
+
+.header_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 500px;
+  margin-top: 187px;
+  max-width: 469px;
+
+  &_title {
+    font-family: Larsseit;
+    font-size: 24px;
+    line-height: 27px;
+    font-weight: 700;
+    color: #62D0DF;
+  }
+
+  &_subtitle {
+    font-size: 48px;
+    line-height: 53px;
+    letter-spacing: -0.035em;
+    color: #22356F;
+  }
+
+  &_text {
+    font-size: 24px;
+    line-height: 42px;
+    color: #22356F;
+  }
+
+}
+
+
+.header_info_buttoms_item:nth-child(1) {
+  font-size: 16px;
+  line-height: 23px;
+  margin-right: 20px;
+  padding: 10px 30px;
+  background-color: #F9B640;
+  color: white;
+  font-weight: 700;
+  border: transparent;
+}
+
+.header_info_buttoms_item:nth-child(2) {
+  font-size: 16px;
+  line-height: 23px;
+  margin-right: 20px;
+  padding: 10px 30px;
+  background-color: #F9B640;
+  color: white;
+  font-weight: 700;
+}
+
+.header_info_buttoms_item:hover {
+  border: 2px solid rgb(10, 10, 10);
+  color: slategray;
 }
 
 

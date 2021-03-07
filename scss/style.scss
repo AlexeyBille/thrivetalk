@@ -1,5 +1,5 @@
-$color_1:#62D0DF;
-$color_2:#22356F;
+$color_1: #62D0DF;
+$color_2: #22356F;
 
 
 @import "header";
@@ -35,26 +35,27 @@ ol[class] {
   padding: 0;
 }
 
-body{
-   font-family: 'Lato', sans-serif;
+body {
+  font-family: 'Lato', sans-serif;
 }
 
-a{
-   text-decoration: none;
-   color: black;
+a {
+  text-decoration: none;
+  color: black;
 }
 
-div{
-  box-sizing:border-box;
+div {
+  box-sizing: border-box;
 }
 
-ul{
-list-style: none;
+ul {
+  list-style: none;
 }
 
-.wrapper{
-max-width:1440px;
-overflow-x: hidden;
+.wrapper {
+  margin: 0 auto;
+  max-width: 1440px;
+  overflow-x: hidden;
 }
 
 
